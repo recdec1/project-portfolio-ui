@@ -5,6 +5,49 @@
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
+  font-family: "Courier";
+}
+
+.web_icon {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.image {
+  display: inline;
+  margin: 0 auto;
+  height: 110%;
+  width: auto;
+  border-radius: 50%;
+}
+
+.centre-align {
+  display: flex;
+  vertical-align: middle;
+  align-items: center;
+  justify-content: center;
+}
+.navigation {
+  width: 100vw;
+  height: 40px;
+  background-color: rgb(13, 131, 105);
+  display: flex;
+  flex-direction: row;
+}
+
+.navigation-item {
+  color: black;
+  width: 12.5%;
+  height: 40px;
+  background-color: aliceblue;
+  border-color: black;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .description {
@@ -97,7 +140,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
@@ -125,7 +168,7 @@
 
 .thirteen::before,
 .thirteen::after {
-  content: '';
+  content: "";
   position: absolute;
   z-index: -1;
 }
