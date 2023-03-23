@@ -8,6 +8,23 @@
   font-family: "Courier";
 }
 
+.navigation-items {
+  width: 90%;
+  height: 40px;
+  vertical-align: middle;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.preferences-container {
+}
+
+.icon-container {
+  height: 40px;
+  width: 20%;
+}
+
 .web_icon {
   width: 100px;
   height: 100px;
@@ -19,16 +36,23 @@
 .image {
   display: inline;
   margin: 0 auto;
-  height: 110%;
-  width: auto;
+  height: 40px;
   border-radius: 50%;
 }
 
 .centre-align {
   display: flex;
-  vertical-align: middle;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
   align-items: center;
-  justify-content: center;
+}
+.left-align {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
 }
 .navigation {
   width: 100vw;
@@ -38,8 +62,11 @@
   flex-direction: row;
 }
 
-.navigation-item {
+.navigation-text {
+  opacity: 100%;
   color: black;
+}
+.navigation-item {
   width: 12.5%;
   height: 40px;
   background-color: aliceblue;
@@ -48,6 +75,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  opacity: 50%;
+  margin-left: 5px;
 }
 
 .description {

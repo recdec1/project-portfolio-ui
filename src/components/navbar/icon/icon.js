@@ -3,11 +3,11 @@ import Image from "next/image";
 
 export default function WebIcon() {
   return (
-    <>
-      <div className={styles[("centre-align", "web-icon")]}>
-        {/* <p>Icon</p> */}
+    <div className={styles["web-icon"]}>
+      <a href="#" className={styles["left-align"]}>
         <img src="/chef-hat.png" className={styles.image} />
-      </div>
-    </>
+        <p>Chef's Delight</p>
+      </a>
+    </div>
   );
 }
